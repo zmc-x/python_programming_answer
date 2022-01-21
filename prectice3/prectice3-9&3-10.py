@@ -1,0 +1,12 @@
+test=['a','b','c','d','e']
+length=len(test)
+print(length)
+#insert
+test.insert(0,'A')
+#append
+test.append('f')
+#remove
+test.remove('c')
+#pop
+test.pop(2)
+print(test)
